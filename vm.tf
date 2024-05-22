@@ -2,7 +2,7 @@ resource "azurerm_linux_virtual_machine" "main" {
   name                            = "NCPL-vm"
   resource_group_name             = azurerm_resource_group.ncplrg.name
   location                        = "eastus"
-  size                            = "Standard_D2s_v3"
+  size                            = "Standard_B1s"
   admin_username                  = "balaadmin"
   admin_password                  = "Bala@12345678"
   disable_password_authentication = false
